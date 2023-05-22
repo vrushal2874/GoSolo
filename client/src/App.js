@@ -136,6 +136,195 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
           </Routes>
+          <div className="Vrushal">
+            <section class="grid gap-2 grid-auto-fit">
+              <div class="relative flex flex-col min-w-0 break-words bg-white shadow-soft-xl rounded-2xl bg-clip-border">
+                <div class="flex-auto p-4">
+                  <div class="flex flex-wrap -mx-3">
+                    <div class=" flex-wrap h-128px w-full m-auto p-4 bg-white border  rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700 ">
+                      <div class=" text-left text-xl bg-white-500 m-auto p-auto p-20 m-20 bg-gray-200  border-4 border-gray-300 mx auto rounded-xl  ">
+                        <div class="py-2 px-2 rounded-xl overflow-hidden">
+                          <img
+                            class="rounded-2xl "
+                            src="./Images/download.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <b class="underline underline-offset-1 ">
+                          Posted By : Machine Learing
+                        </b>
+                        <p class="tracking-tighter text-gray-500 md:text-lg dark:text-gray-400">
+                          Machine learning is a branch of artificial
+                          intelligence (AI) and computer science which focuses
+                          on the use of data and algorithms to imitate the way
+                          that humans learn, gradually improving its accuracy.
+                        </p>
+
+                        <b class="underline underline-offset-1"> Details</b>
+                        <h2 class="px-2 text-lg mt-4">
+                          Since deep learning and machine learning tend to be
+                          used interchangeably, it’s worth noting the nuances
+                          between the two. Machine learning, deep learning, and
+                          neural networks are all sub-fields of artificial
+                          intelligence. However, neural networks is actually a
+                          sub-field of machine learning, and deep learning is a
+                          sub-field of neural networks.
+                        </h2>
+
+                        <b class="underline underline-offset-1 ">Category</b>
+                        <p class="px-2 text-lg mt-4">
+                          Machine learning involves showing a large volume of
+                          data to a machine so that it can learn and make
+                          predictions, find patterns, or classify data. The
+                          three machine learning types are supervised,
+                          unsupervised, and reinforcement learning. Supervised
+                          learning Unsupervised Reinforcement
+                        </p>
+                        {/* <b class="justify-center underline underline-offset-1">
+                    Image rounded-2xl flex-col
+                  </b> */}
+                        {/* <div class="py-2 px-2 rounded-xl overflow-hidden justify-center items-center ">
+                    <img
+                      class=" object-none object-right bg-yellow-300 w-24 h-24 "
+                      src="./Images/ML.jpg"
+                      alt=""
+                    />
+                  </div> */}
+                        <div class="flex space-x-4 justify-center mt-8">
+                          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+                            Go Back
+                          </button>
+                          <button class=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded cursor-progress">
+                            Apply
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                      <a href="#">
+                        <img
+                          class="rounded-t-lg"
+                          src="/docs/images/blog/image-1.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>{" "}
+                </div>{" "}
+              </div>
+            </section>
+
+            <div class="w-full max-w-md m-10 p-4 bg-gray border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700 ">
+              <div class="flex items-center justify-between mb-4 bg-gray">
+                <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white">
+                  List Of Bidders
+                </h5>
+                {/* <a
+                  href="#"
+                  class="text-sm font-medium text-blue-600 hover:underline dark:text-blue-500"
+                >
+                  View all
+                </a> */}
+              </div>
+              <div class="flow-root">
+                <ul
+                  role="list"
+                  class="divide-y divide-gray-200 dark:divide-gray-700"
+                >
+                  <li class="py-3 sm:py-4">
+                    <div class="flex items-center space-x-4">
+                      {/* <div class="flex-shrink-0">
+                        <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-1.jpg" alt="Neil image">
+                    </div> */}
+                      <div class="flex-1 min-w-0">
+                        <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+                          Roy
+                        </p>
+                        <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+                          email@windster.com
+                        </p>
+                      </div>
+                      <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                        $320
+                      </div>
+                    </div>
+                  </li>
+                  <li class="py-3 sm:py-4">
+                    <div class="flex items-center space-x-4">
+                      {/* <div class="flex-shrink-0">
+                        <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-3.jpg" alt="Bonnie image">
+                    </div> */}
+                      <div class="flex-1 min-w-0">
+                        <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+                          Alex
+                        </p>
+                        <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+                          email@windster.com
+                        </p>
+                      </div>
+                      <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                        $3467
+                      </div>
+                    </div>
+                  </li>
+                  <li class="py-3 sm:py-4">
+                    <div class="flex items-center space-x-4">
+                      {/* <div class="flex-shrink-0">
+                        <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-2.jpg" alt="Michael image">
+                    </div> */}
+                      <div class="flex-1 min-w-0">
+                        <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+                          Rohit
+                        </p>
+                        <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+                          email@windster.com
+                        </p>
+                      </div>
+                      <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                        $67
+                      </div>
+                    </div>
+                  </li>
+                  <li class="py-3 sm:py-4">
+                    <div class="flex items-center space-x-4">
+                      {/* <div class="flex-shrink-0">
+                        <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-4.jpg" alt="Lana image">
+                    </div> */}
+                      <div class="flex-1 min-w-0">
+                        <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+                          Joe
+                        </p>
+                        <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+                          email@windster.com
+                        </p>
+                      </div>
+                      <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                        $367
+                      </div>
+                    </div>
+                  </li>
+                  <li class="pt-3 pb-0 sm:pt-4">
+                    <div class="flex items-center space-x-4">
+                      {/* <div class="flex-shrink-0">
+                        <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-5.jpg" alt="Thomas image">
+                    </div> */}
+                      <div class="flex-1 min-w-0">
+                        <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+                          Tim
+                        </p>
+                        <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+                          email@windster.com
+                        </p>
+                      </div>
+                      <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                        $2367
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
